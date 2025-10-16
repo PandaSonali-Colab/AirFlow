@@ -1,0 +1,16 @@
+.log
+.env
+airflow.cfg
+unittests.cfg
+airFlow/logs/
+logs/
+dags/__pycache__/
+airFlow/dags/__pycache__/
+airFlow/plugins/__pycache__/
+openai_api_key.txt
+config.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

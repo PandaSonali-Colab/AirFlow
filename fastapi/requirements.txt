@@ -1,0 +1,2 @@
+fastapi
+PyPDF2

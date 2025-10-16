@@ -1,0 +1,939 @@
+[2025-10-08T11:41:44.937+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:41:44.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:41:44.946+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:44.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:41:45.456+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:41:46.283+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.279+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:insurance_receipt_handler
+[2025-10-08T11:41:46.306+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.305+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:insurance_receipt_handler
+[2025-10-08T11:41:46.327+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.326+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:insurance_receipt_handler
+[2025-10-08T11:41:46.347+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.347+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:insurance_receipt_handler
+[2025-10-08T11:41:46.363+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.362+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:insurance_receipt_handler
+[2025-10-08T11:41:46.383+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.382+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:insurance_receipt_handler
+[2025-10-08T11:41:46.398+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.398+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:insurance_receipt_handler
+[2025-10-08T11:41:46.401+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:41:46.457+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.456+0000] {dag.py:3262} INFO - Creating ORM DAG for insurance_receipt_handler
+[2025-10-08T11:41:46.470+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:41:46.469+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:41:46.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 1.627 seconds
+[2025-10-08T11:42:17.118+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:42:17.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:42:17.143+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:42:17.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:42:17.329+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:42:17.383+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:42:17.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:42:17.448+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:42:17.448+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:42:17.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.425 seconds
+[2025-10-08T11:42:47.843+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:42:47.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:42:47.862+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:42:47.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:42:48.187+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:42:48.261+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:42:48.260+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:42:48.308+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:42:48.307+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:42:48.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.550 seconds
+[2025-10-08T11:43:18.749+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:43:18.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:43:18.759+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:43:18.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:43:19.007+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:43:19.079+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:43:19.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:43:19.128+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:43:19.128+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:43:19.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.591 seconds
+[2025-10-08T11:43:49.430+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:43:49.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:43:49.435+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:43:49.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:43:49.606+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:43:49.642+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:43:49.641+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:43:49.672+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:43:49.671+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:43:49.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.292 seconds
+[2025-10-08T11:44:19.905+0000] {processor.py:186} INFO - Started process (PID=139) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:44:19.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:44:19.912+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:44:19.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:44:20.027+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:44:20.070+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:44:20.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:44:20.098+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:44:20.098+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:44:20.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.237 seconds
+[2025-10-08T11:44:50.291+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:44:50.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:44:50.296+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:44:50.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:44:50.426+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:44:50.461+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:44:50.460+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:44:50.483+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:44:50.482+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:44:50.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.230 seconds
+[2025-10-08T11:45:21.079+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:45:21.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:45:21.088+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:45:21.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:45:21.283+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:45:21.331+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:45:21.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:45:21.353+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:45:21.353+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:45:21.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.321 seconds
+[2025-10-08T11:45:51.763+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:45:51.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:45:51.771+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:45:51.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:45:51.891+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:45:51.928+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:45:51.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:45:51.963+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:45:51.962+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:45:51.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.235 seconds
+[2025-10-08T11:46:22.080+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:46:22.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:46:22.086+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:46:22.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:46:22.328+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:46:22.401+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:46:22.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:46:22.437+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:46:22.436+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:46:22.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.415 seconds
+[2025-10-08T11:46:52.734+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:46:52.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:46:52.739+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:46:52.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:46:52.857+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:46:52.898+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:46:52.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:46:52.916+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:46:52.916+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:46:52.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.220 seconds
+[2025-10-08T11:47:23.091+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:47:23.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:47:23.098+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:47:23.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:47:23.211+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:47:23.250+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:47:23.250+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:47:23.271+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:47:23.271+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:47:23.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.222 seconds
+[2025-10-08T11:47:53.560+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:47:53.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:47:53.564+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:47:53.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:47:53.657+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:47:53.693+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:47:53.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:47:54.816+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:47:54.816+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:47:54.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 1.293 seconds
+[2025-10-08T11:48:25.166+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:48:25.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:48:25.172+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:48:25.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:48:25.300+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:48:25.340+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:48:25.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:48:25.370+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:48:25.370+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:48:25.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.247 seconds
+[2025-10-08T11:48:55.495+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:48:55.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:48:55.502+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:48:55.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:48:55.614+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:48:55.646+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:48:55.646+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:48:55.667+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:48:55.666+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:48:55.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.210 seconds
+[2025-10-08T11:49:25.989+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:49:25.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:49:25.994+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:49:25.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:49:26.121+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:49:26.155+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:49:26.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:49:26.174+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:49:26.174+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:49:26.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.214 seconds
+[2025-10-08T11:49:56.279+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:49:56.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:49:56.287+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:49:56.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:49:56.423+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:49:56.473+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:49:56.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:49:56.714+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:49:56.714+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:49:56.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.469 seconds
+[2025-10-08T11:50:27.075+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:50:27.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:50:27.082+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:50:27.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:50:27.257+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:50:27.309+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:50:27.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:50:27.340+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:50:27.340+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:50:27.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.315 seconds
+[2025-10-08T11:50:57.725+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:50:57.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:50:57.729+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:50:57.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:50:57.878+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:50:57.926+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:50:57.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:50:57.959+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:50:57.959+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:50:58.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.304 seconds
+[2025-10-08T11:51:28.371+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:51:28.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:51:28.382+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:51:28.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:51:28.556+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:51:28.594+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:51:28.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:51:28.618+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:51:28.617+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:51:28.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.290 seconds
+[2025-10-08T11:51:59.121+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:51:59.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:51:59.126+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:51:59.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:51:59.223+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:51:59.254+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:51:59.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:51:59.462+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:51:59.462+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:51:59.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.378 seconds
+[2025-10-08T11:52:29.815+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:52:29.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:52:29.819+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:52:29.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:52:29.955+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:52:30.010+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:52:30.010+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:52:30.058+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:52:30.058+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:52:30.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.315 seconds
+[2025-10-08T11:53:00.468+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:53:00.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:53:00.473+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:53:00.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:53:00.587+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:53:00.630+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:53:00.629+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:53:00.669+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:53:00.668+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:53:00.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.296 seconds
+[2025-10-08T11:53:31.162+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:53:31.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:53:31.167+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:53:31.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:53:31.277+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:53:31.318+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:53:31.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:53:31.338+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:53:31.337+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:53:31.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.217 seconds
+[2025-10-08T11:54:01.769+0000] {processor.py:186} INFO - Started process (PID=274) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:54:01.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:54:01.780+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:54:01.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:54:01.966+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:54:02.040+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:54:02.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:54:02.702+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:54:02.701+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:54:02.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.998 seconds
+[2025-10-08T11:54:33.841+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:54:33.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:54:33.871+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:54:33.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:54:34.244+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:54:34.370+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:54:34.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:54:34.436+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:54:34.436+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:54:34.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.691 seconds
+[2025-10-08T11:55:04.991+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:55:04.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T11:55:04.997+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:55:04.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:55:05.111+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T11:55:05.153+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:55:05.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T11:55:05.171+0000] {logging_mixin.py:190} INFO - [2025-10-08T11:55:05.170+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T11:55:05.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.222 seconds
+[2025-10-08T12:01:14.882+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:01:14.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:01:14.887+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:01:14.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:01:15.268+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:01:16.370+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:01:16.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:01:16.443+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:01:16.442+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:01:16.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 1.640 seconds
+[2025-10-08T12:01:46.773+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:01:46.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:01:46.786+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:01:46.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:01:47.121+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:01:47.246+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:01:47.246+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:01:47.391+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:01:47.391+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:01:47.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.725 seconds
+[2025-10-08T12:02:17.826+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:02:17.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:02:17.874+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:02:17.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:02:18.252+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:02:18.400+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:02:18.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:02:18.461+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:02:18.461+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:02:18.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.916 seconds
+[2025-10-08T12:02:49.101+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:02:49.103+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:02:49.106+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:02:49.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:02:49.213+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:02:49.250+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:02:49.250+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:02:49.274+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:02:49.274+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:02:49.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.212 seconds
+[2025-10-08T12:03:19.484+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:19.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:03:19.494+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:19.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:19.755+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:19.806+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:19.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:03:19.829+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:19.829+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:03:19.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.390 seconds
+[2025-10-08T12:03:20.646+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:20.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:03:20.655+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:20.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:20.802+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:20.865+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:20.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:03:20.906+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:20.904+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:03:20.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.317 seconds
+[2025-10-08T12:03:21.975+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:21.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:03:21.979+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:21.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:22.125+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:22.176+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:22.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:03:22.195+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:22.195+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:03:22.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.272 seconds
+[2025-10-08T12:03:24.054+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:24.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:03:24.058+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:24.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:24.212+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:24.255+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:24.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:03:24.277+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:24.276+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:03:24.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.261 seconds
+[2025-10-08T12:03:54.641+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:54.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:03:54.646+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:54.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:54.764+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:54.838+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:54.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:03:54.875+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:54.874+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:03:54.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.278 seconds
+[2025-10-08T12:03:56.681+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:56.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:03:56.688+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:56.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:56.810+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:03:56.851+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:56.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:03:56.878+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:03:56.878+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:03:56.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.238 seconds
+[2025-10-08T12:04:27.012+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:04:27.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:04:27.018+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:04:27.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:04:27.166+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:04:27.213+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:04:27.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:04:27.246+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:04:27.246+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:04:27.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.280 seconds
+[2025-10-08T12:04:57.504+0000] {processor.py:186} INFO - Started process (PID=152) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:04:57.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:04:57.509+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:04:57.508+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:04:57.630+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:04:57.663+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:04:57.663+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:04:57.683+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:04:57.683+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:04:57.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.218 seconds
+[2025-10-08T12:05:27.939+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:05:27.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:05:27.945+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:05:27.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:05:28.055+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:05:28.084+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:05:28.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:05:28.109+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:05:28.109+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:05:28.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.209 seconds
+[2025-10-08T12:05:58.328+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:05:58.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:05:58.333+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:05:58.332+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:05:58.493+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:05:58.528+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:05:58.528+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:05:58.550+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:05:58.550+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:05:58.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.257 seconds
+[2025-10-08T12:06:28.913+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:06:28.915+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:06:28.918+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:06:28.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:06:29.086+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:06:29.125+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:06:29.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:06:29.153+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:06:29.153+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:06:29.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.927 seconds
+[2025-10-08T12:07:00.169+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:07:00.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:07:00.174+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:07:00.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:07:00.294+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:07:00.330+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:07:00.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:07:00.578+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:07:00.578+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:07:00.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.466 seconds
+[2025-10-08T12:07:30.963+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:07:30.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:07:30.970+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:07:30.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:07:31.143+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:07:31.188+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:07:31.188+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:07:31.216+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:07:31.216+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:07:31.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.306 seconds
+[2025-10-08T12:08:01.567+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:08:01.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:08:01.572+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:08:01.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:08:01.701+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:08:01.738+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:08:01.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:08:01.759+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:08:01.758+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:08:01.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.225 seconds
+[2025-10-08T12:08:31.869+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:08:31.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:08:31.874+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:08:31.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:08:32.009+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:08:32.050+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:08:32.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:08:32.073+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:08:32.073+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:08:32.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.242 seconds
+[2025-10-08T12:09:02.533+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:09:02.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:09:02.542+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:09:02.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:09:02.748+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:09:02.789+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:09:02.789+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:09:03.208+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:09:03.208+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:09:03.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.763 seconds
+[2025-10-08T12:09:33.646+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:09:33.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:09:33.652+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:09:33.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:09:33.764+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:09:33.800+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:09:33.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:09:33.822+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:09:33.822+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:09:33.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.216 seconds
+[2025-10-08T12:10:04.161+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:10:04.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:10:04.166+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:10:04.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:10:04.274+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:10:04.311+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:10:04.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:10:04.333+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:10:04.333+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:10:04.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.212 seconds
+[2025-10-08T12:10:34.439+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:10:34.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:10:34.444+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:10:34.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:10:34.731+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:10:34.809+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:10:34.808+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:10:34.882+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:10:34.881+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:10:34.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.512 seconds
+[2025-10-08T12:11:05.283+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:11:05.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:11:05.288+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:11:05.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:11:05.451+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:11:05.496+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:11:05.495+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:11:05.786+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:11:05.785+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:11:05.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.539 seconds
+[2025-10-08T12:11:36.215+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:11:36.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:11:36.221+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:11:36.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:11:36.371+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:11:36.418+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:11:36.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:11:36.451+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:11:36.450+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:11:36.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.285 seconds
+[2025-10-08T12:12:06.808+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:12:06.810+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:12:06.812+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:12:06.812+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:12:06.907+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:12:06.941+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:12:06.940+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:12:06.961+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:12:06.961+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:12:06.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.187 seconds
+[2025-10-08T12:12:37.131+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:12:37.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:12:37.136+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:12:37.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:12:37.259+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:12:37.297+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:12:37.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:12:37.315+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:12:37.314+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:12:37.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.229 seconds
+[2025-10-08T12:13:07.625+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:13:07.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:13:07.630+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:13:07.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:13:07.751+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:13:07.780+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:13:07.780+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:13:07.984+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:13:07.984+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:13:08.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.392 seconds
+[2025-10-08T12:13:38.390+0000] {processor.py:186} INFO - Started process (PID=274) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:13:38.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:13:38.397+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:13:38.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:13:38.532+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:13:38.567+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:13:38.567+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:13:38.586+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:13:38.585+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:13:38.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.244 seconds
+[2025-10-08T12:14:08.960+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:14:08.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:14:08.965+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:14:08.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:14:09.113+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:14:09.154+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:14:09.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:14:09.179+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:14:09.178+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:14:09.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.268 seconds
+[2025-10-08T12:14:39.553+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:14:39.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:14:39.559+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:14:39.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:14:39.989+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:14:40.222+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:14:40.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:14:40.255+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:14:40.255+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:14:40.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.810 seconds
+[2025-10-08T12:15:10.547+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:15:10.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:15:10.553+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:15:10.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:15:10.727+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:15:10.783+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:15:10.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:15:11.141+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:15:11.140+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:15:11.188+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.652 seconds
+[2025-10-08T12:15:41.523+0000] {processor.py:186} INFO - Started process (PID=302) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:15:41.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:15:41.533+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:15:41.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:15:41.701+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:15:41.770+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:15:41.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:15:41.800+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:15:41.799+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:15:41.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.325 seconds
+[2025-10-08T12:16:12.171+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:16:12.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:16:12.175+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:16:12.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:16:12.299+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:16:12.345+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:16:12.344+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:16:12.375+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:16:12.374+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:16:12.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.250 seconds
+[2025-10-08T12:16:42.599+0000] {processor.py:186} INFO - Started process (PID=316) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:16:42.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:16:42.609+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:16:42.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:16:42.749+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:16:42.782+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:16:42.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:16:42.807+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:16:42.806+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:16:43.100+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.512 seconds
+[2025-10-08T12:17:13.439+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:17:13.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:17:13.443+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:17:13.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:17:13.541+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:17:13.579+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:17:13.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:17:13.790+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:17:13.790+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:17:13.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.386 seconds
+[2025-10-08T12:17:44.139+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:17:44.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:17:44.145+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:17:44.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:17:44.292+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:17:44.329+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:17:44.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:17:44.355+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:17:44.355+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:17:44.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.262 seconds
+[2025-10-08T12:18:14.688+0000] {processor.py:186} INFO - Started process (PID=337) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:18:14.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:18:14.692+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:18:14.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:18:14.814+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:18:14.853+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:18:14.852+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:18:14.881+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:18:14.880+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:18:14.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.232 seconds
+[2025-10-08T12:18:44.974+0000] {processor.py:186} INFO - Started process (PID=344) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:18:44.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:18:44.979+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:18:44.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:18:45.067+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:18:45.094+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:18:45.094+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:18:45.110+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:18:45.110+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:18:45.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.172 seconds
+[2025-10-08T12:19:15.288+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:19:15.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:19:15.294+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:19:15.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:19:15.436+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:19:15.474+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:19:15.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:19:15.697+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:19:15.697+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:19:15.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.450 seconds
+[2025-10-08T12:19:46.047+0000] {processor.py:186} INFO - Started process (PID=358) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:19:46.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:19:46.051+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:19:46.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:19:46.157+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:19:46.190+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:19:46.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:19:46.211+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:19:46.211+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:19:46.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.202 seconds
+[2025-10-08T12:20:16.372+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:20:16.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:20:16.379+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:20:16.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:20:16.550+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:20:16.591+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:20:16.591+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:20:16.618+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:20:16.618+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:20:16.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.299 seconds
+[2025-10-08T12:20:46.866+0000] {processor.py:186} INFO - Started process (PID=372) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:20:46.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:20:46.871+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:20:46.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:20:47.028+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:20:47.064+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:20:47.064+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:20:47.090+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:20:47.089+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:20:47.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.279 seconds
+[2025-10-08T12:21:17.383+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:21:17.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:21:17.389+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:21:17.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:21:17.497+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:21:17.705+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:21:17.704+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:21:17.720+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:21:17.720+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:21:17.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.373 seconds
+[2025-10-08T12:21:47.800+0000] {processor.py:186} INFO - Started process (PID=387) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:21:47.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:21:47.805+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:21:47.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:21:47.932+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:21:47.961+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:21:47.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:21:47.983+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:21:47.983+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:21:48.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.220 seconds
+[2025-10-08T12:22:18.091+0000] {processor.py:186} INFO - Started process (PID=394) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:22:18.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:22:18.095+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:22:18.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:22:18.184+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:22:18.218+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:22:18.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:22:18.241+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:22:18.240+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:22:18.267+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.184 seconds
+[2025-10-08T12:22:48.428+0000] {processor.py:186} INFO - Started process (PID=401) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:22:48.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:22:48.435+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:22:48.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:22:48.828+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:22:49.079+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:22:49.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:22:49.146+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:22:49.146+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:22:49.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.816 seconds
+[2025-10-08T12:23:19.645+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:23:19.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:23:19.653+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:23:19.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:23:19.776+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:23:19.830+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:23:19.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:23:20.124+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:23:20.124+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:23:20.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.522 seconds
+[2025-10-08T12:23:50.296+0000] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:23:50.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:23:50.301+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:23:50.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:23:50.403+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:23:50.437+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:23:50.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:23:50.458+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:23:50.458+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:23:50.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.194 seconds
+[2025-10-08T12:24:20.813+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:24:20.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:24:20.819+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:24:20.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:24:20.941+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:24:20.981+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:24:20.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:24:21.004+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:24:21.004+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:24:21.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.232 seconds
+[2025-10-08T12:24:51.109+0000] {processor.py:186} INFO - Started process (PID=430) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:24:51.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:24:51.121+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:24:51.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:24:51.279+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:24:51.359+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:24:51.359+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:24:51.407+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:24:51.406+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:24:51.472+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.380 seconds
+[2025-10-08T12:25:21.633+0000] {processor.py:186} INFO - Started process (PID=437) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:25:21.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:25:21.639+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:25:21.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:25:21.776+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:25:21.817+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:25:21.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:25:22.044+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:25:22.043+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:25:22.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.446 seconds
+[2025-10-08T12:25:52.406+0000] {processor.py:186} INFO - Started process (PID=444) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:25:52.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:25:52.412+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:25:52.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:25:52.526+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:25:52.566+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:25:52.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:25:52.591+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:25:52.591+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:25:52.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.222 seconds
+[2025-10-08T12:26:22.764+0000] {processor.py:186} INFO - Started process (PID=451) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:26:22.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:26:22.769+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:26:22.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:26:22.880+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:26:22.908+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:26:22.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:26:22.929+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:26:22.928+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:26:22.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.209 seconds
+[2025-10-08T12:26:53.204+0000] {processor.py:186} INFO - Started process (PID=459) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:26:53.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:26:53.217+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:26:53.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:26:53.355+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:26:53.400+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:26:53.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:26:53.417+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:26:53.416+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:26:53.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.259 seconds
+[2025-10-08T12:27:23.663+0000] {processor.py:186} INFO - Started process (PID=466) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:23.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:27:23.668+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:23.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:23.831+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:23.877+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:23.876+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:27:24.120+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:24.120+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:27:24.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.504 seconds
+[2025-10-08T12:27:32.288+0000] {processor.py:186} INFO - Started process (PID=473) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:32.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:27:32.293+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:32.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:32.449+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:32.685+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:32.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:27:32.702+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:32.702+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:27:32.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.453 seconds
+[2025-10-08T12:27:44.897+0000] {processor.py:186} INFO - Started process (PID=474) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:44.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:27:44.903+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:44.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:45.078+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:45.121+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:45.121+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:27:45.179+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:45.179+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:27:45.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.391 seconds
+[2025-10-08T12:27:46.359+0000] {processor.py:186} INFO - Started process (PID=475) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:46.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:27:46.364+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:46.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:46.510+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:27:46.545+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:46.545+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:27:46.567+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:27:46.566+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:27:46.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.246 seconds
+[2025-10-08T12:28:16.681+0000] {processor.py:186} INFO - Started process (PID=482) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:28:16.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:28:16.687+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:28:16.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:28:16.839+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:28:16.925+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:28:16.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:28:16.958+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:28:16.958+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:28:17.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.340 seconds
+[2025-10-08T12:28:47.203+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:28:47.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:28:47.210+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:28:47.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:28:47.387+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:28:47.428+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:28:47.427+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:28:47.461+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:28:47.460+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:28:47.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.320 seconds
+[2025-10-08T12:29:17.633+0000] {processor.py:186} INFO - Started process (PID=496) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:29:17.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:29:17.639+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:29:17.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:29:17.735+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:29:17.776+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:29:17.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:29:18.004+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:29:18.003+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:29:18.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.406 seconds
+[2025-10-08T12:29:47.203+0000] {processor.py:186} INFO - Started process (PID=504) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:29:47.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:29:47.211+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:29:47.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:29:47.423+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:29:47.475+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:29:47.474+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:29:47.508+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:29:47.508+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:29:47.590+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.400 seconds
+[2025-10-08T12:29:58.531+0000] {processor.py:186} INFO - Started process (PID=505) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:29:58.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:29:58.540+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:29:58.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:29:58.765+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:29:58.824+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:29:58.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:29:58.876+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:29:58.876+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:29:58.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.444 seconds
+[2025-10-08T12:30:01.813+0000] {processor.py:186} INFO - Started process (PID=512) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:01.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:30:01.819+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:01.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:01.988+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:02.035+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:02.035+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:30:02.061+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:02.060+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:30:02.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.306 seconds
+[2025-10-08T12:30:05.126+0000] {processor.py:186} INFO - Started process (PID=513) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:05.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:30:05.132+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:05.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:05.342+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:05.396+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:05.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:30:05.432+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:05.432+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:30:05.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.366 seconds
+[2025-10-08T12:30:14.636+0000] {processor.py:186} INFO - Started process (PID=514) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:14.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:30:14.641+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:14.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:14.783+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:14.828+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:14.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:30:14.873+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:14.872+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:30:14.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.291 seconds
+[2025-10-08T12:30:15.679+0000] {processor.py:186} INFO - Started process (PID=515) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:15.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:30:15.684+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:15.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:15.865+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:15.921+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:15.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:30:15.953+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:15.953+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:30:16.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.333 seconds
+[2025-10-08T12:30:46.307+0000] {processor.py:186} INFO - Started process (PID=521) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:46.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:30:46.313+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:46.312+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:46.419+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:30:46.448+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:46.448+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:30:46.671+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:30:46.671+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:30:46.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.403 seconds
+[2025-10-08T12:31:17.008+0000] {processor.py:186} INFO - Started process (PID=528) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:31:17.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:31:17.014+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:31:17.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:31:17.125+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:31:17.156+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:31:17.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:31:17.177+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:31:17.176+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:31:17.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.206 seconds
+[2025-10-08T12:31:47.300+0000] {processor.py:186} INFO - Started process (PID=535) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:31:47.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:31:47.307+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:31:47.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:31:47.431+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:31:47.470+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:31:47.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:31:47.498+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:31:47.498+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:31:47.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.241 seconds
+[2025-10-08T12:32:17.745+0000] {processor.py:186} INFO - Started process (PID=542) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:32:17.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:32:17.750+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:32:17.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:32:17.835+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:32:17.866+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:32:17.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:32:17.885+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:32:17.884+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:32:17.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.171 seconds
+[2025-10-08T12:32:48.081+0000] {processor.py:186} INFO - Started process (PID=549) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:32:48.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:32:48.085+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:32:48.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:32:48.173+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:32:48.206+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:32:48.205+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:32:48.395+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:32:48.394+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:32:48.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.349 seconds
+[2025-10-08T12:33:18.505+0000] {processor.py:186} INFO - Started process (PID=556) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:33:18.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:33:18.511+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:33:18.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:33:18.596+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:33:18.800+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:33:18.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:33:18.814+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:33:18.814+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:33:18.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.338 seconds
+[2025-10-08T12:33:49.025+0000] {processor.py:186} INFO - Started process (PID=563) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:33:49.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:33:49.031+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:33:49.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:33:49.136+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:33:49.166+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:33:49.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:33:49.185+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:33:49.184+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:33:49.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.193 seconds
+[2025-10-08T12:34:19.432+0000] {processor.py:186} INFO - Started process (PID=570) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:34:19.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:34:19.439+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:34:19.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:34:19.563+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:34:19.603+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:34:19.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:34:19.631+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:34:19.631+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:34:19.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.241 seconds
+[2025-10-08T12:34:49.788+0000] {processor.py:186} INFO - Started process (PID=577) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:34:49.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:34:49.792+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:34:49.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:34:49.877+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:34:49.904+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:34:49.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:34:50.093+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:34:50.092+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:34:50.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.338 seconds
+[2025-10-08T12:35:20.255+0000] {processor.py:186} INFO - Started process (PID=584) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:35:20.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:35:20.259+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:35:20.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:35:20.358+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:35:20.584+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:35:20.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:35:20.600+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:35:20.600+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:35:20.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.376 seconds
+[2025-10-08T12:35:50.703+0000] {processor.py:186} INFO - Started process (PID=591) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:35:50.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:35:50.708+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:35:50.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:35:50.816+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:35:50.845+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:35:50.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:35:50.867+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:35:50.866+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:35:50.898+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.204 seconds
+[2025-10-08T12:36:21.302+0000] {processor.py:186} INFO - Started process (PID=598) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:36:21.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:36:21.308+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:36:21.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:36:21.437+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:36:21.468+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:36:21.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:36:21.494+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:36:21.493+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:36:21.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.227 seconds
+[2025-10-08T12:36:51.681+0000] {processor.py:186} INFO - Started process (PID=605) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:36:51.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:36:51.709+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:36:51.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:36:52.315+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:36:52.406+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:36:52.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:36:52.762+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:36:52.762+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:36:52.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 1.212 seconds
+[2025-10-08T12:37:23.174+0000] {processor.py:186} INFO - Started process (PID=612) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:37:23.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:37:23.178+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:37:23.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:37:23.280+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:37:23.479+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:37:23.479+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:37:23.493+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:37:23.492+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:37:23.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.354 seconds
+[2025-10-08T12:37:53.598+0000] {processor.py:186} INFO - Started process (PID=619) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:37:53.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:37:53.604+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:37:53.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:37:53.729+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:37:53.770+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:37:53.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:37:53.798+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:37:53.798+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:37:53.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.245 seconds
+[2025-10-08T12:38:24.111+0000] {processor.py:186} INFO - Started process (PID=626) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:38:24.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:38:24.116+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:38:24.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:38:24.264+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:38:24.310+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:38:24.309+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:38:24.345+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:38:24.345+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:38:24.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.300 seconds
+[2025-10-08T12:38:54.738+0000] {processor.py:186} INFO - Started process (PID=633) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:38:54.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:38:54.743+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:38:54.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:38:54.878+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:38:54.920+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:38:54.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:38:56.299+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:38:56.299+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:38:56.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 1.625 seconds
+[2025-10-08T12:39:26.708+0000] {processor.py:186} INFO - Started process (PID=640) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:39:26.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:39:26.714+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:39:26.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:39:26.843+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:39:27.079+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:39:27.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:39:27.100+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:39:27.099+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:39:27.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.431 seconds
+[2025-10-08T12:39:57.335+0000] {processor.py:186} INFO - Started process (PID=647) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:39:57.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:39:57.340+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:39:57.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:39:57.449+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:39:57.477+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:39:57.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:39:57.496+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:39:57.496+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:39:57.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.197 seconds
+[2025-10-08T12:40:27.711+0000] {processor.py:186} INFO - Started process (PID=654) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:40:27.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:40:27.716+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:40:27.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:40:27.823+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:40:27.861+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:40:27.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:40:27.888+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:40:27.888+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:40:27.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.220 seconds
+[2025-10-08T12:40:35.945+0000] {processor.py:186} INFO - Started process (PID=661) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:40:35.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:40:35.949+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:40:35.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:40:36.068+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:40:36.102+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:40:36.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:40:36.124+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:40:36.124+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:40:36.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.430 seconds
+[2025-10-08T12:40:37.427+0000] {processor.py:186} INFO - Started process (PID=662) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:40:37.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:40:37.432+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:40:37.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:40:37.553+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:40:37.605+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:40:37.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:40:37.850+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:40:37.849+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:40:37.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.463 seconds
+[2025-10-08T12:41:08.229+0000] {processor.py:186} INFO - Started process (PID=669) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:41:08.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:41:08.235+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:41:08.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:41:08.393+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:41:08.701+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:41:08.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:41:08.724+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:41:08.723+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:41:08.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.531 seconds
+[2025-10-08T12:41:39.082+0000] {processor.py:186} INFO - Started process (PID=676) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:41:39.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:41:39.087+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:41:39.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:41:39.407+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:41:39.435+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:41:39.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:41:39.450+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:41:39.450+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:41:39.483+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.407 seconds
+[2025-10-08T12:42:09.825+0000] {processor.py:186} INFO - Started process (PID=683) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:09.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:42:09.834+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:09.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:10.043+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:10.080+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:10.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:42:10.097+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:10.097+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:42:10.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.308 seconds
+[2025-10-08T12:42:40.437+0000] {processor.py:186} INFO - Started process (PID=690) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:40.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:42:40.442+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:40.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:40.566+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:40.602+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:40.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:42:40.629+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:40.629+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:42:40.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.433 seconds
+[2025-10-08T12:42:44.491+0000] {processor.py:186} INFO - Started process (PID=691) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:44.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:42:44.495+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:44.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:44.606+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:44.660+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:44.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:42:44.885+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:44.884+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:42:44.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.452 seconds
+[2025-10-08T12:42:46.983+0000] {processor.py:186} INFO - Started process (PID=692) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:46.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:42:46.989+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:46.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:47.109+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:47.316+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:47.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:42:47.338+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:47.335+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:42:47.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.390 seconds
+[2025-10-08T12:42:50.446+0000] {processor.py:186} INFO - Started process (PID=693) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:50.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:42:50.451+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:50.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:50.563+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:50.798+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:50.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:42:50.818+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:50.817+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:42:50.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.410 seconds
+[2025-10-08T12:42:53.947+0000] {processor.py:186} INFO - Started process (PID=694) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:53.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:42:53.953+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:53.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:54.097+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:54.313+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:54.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:42:54.335+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:54.335+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:42:54.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.427 seconds
+[2025-10-08T12:42:58.000+0000] {processor.py:186} INFO - Started process (PID=695) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:58.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:42:58.005+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:58.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:58.400+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:42:58.429+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:58.428+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:42:58.451+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:42:58.450+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:42:58.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.497 seconds
+[2025-10-08T12:43:02.500+0000] {processor.py:186} INFO - Started process (PID=696) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:43:02.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:43:02.505+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:43:02.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:43:02.845+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:43:02.875+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:43:02.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:43:02.904+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:43:02.904+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:43:02.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.468 seconds
+[2025-10-08T12:43:04.596+0000] {processor.py:186} INFO - Started process (PID=703) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:43:04.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:43:04.602+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:43:04.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:43:04.920+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:43:04.944+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:43:04.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:43:04.967+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:43:04.967+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:43:04.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.411 seconds
+[2025-10-08T12:43:35.363+0000] {processor.py:186} INFO - Started process (PID=710) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:43:35.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:43:35.370+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:43:35.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:43:35.488+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:43:35.525+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:43:35.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:43:35.548+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:43:35.547+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:43:35.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.219 seconds
+[2025-10-08T12:44:05.640+0000] {processor.py:186} INFO - Started process (PID=717) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:44:05.642+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:44:05.646+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:44:05.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:44:05.778+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:44:05.813+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:44:05.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:44:06.037+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:44:06.036+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:44:06.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.439 seconds
+[2025-10-08T12:44:36.161+0000] {processor.py:186} INFO - Started process (PID=724) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:44:36.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:44:36.165+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:44:36.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:44:36.283+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:44:36.497+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:44:36.496+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:44:36.510+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:44:36.510+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:44:36.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.380 seconds
+[2025-10-08T12:45:06.733+0000] {processor.py:186} INFO - Started process (PID=731) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:45:06.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:45:06.739+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:45:06.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:45:07.033+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:45:07.081+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:45:07.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:45:07.103+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:45:07.103+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:45:07.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.411 seconds
+[2025-10-08T12:45:37.467+0000] {processor.py:186} INFO - Started process (PID=738) to work on /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:45:37.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lic_receipyt_dag.py for tasks to queue
+[2025-10-08T12:45:37.473+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:45:37.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:45:37.727+0000] {processor.py:925} INFO - DAG(s) 'insurance_receipt_handler' retrieved from /opt/airflow/dags/lic_receipyt_dag.py
+[2025-10-08T12:45:38.089+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:45:38.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-08T12:45:38.201+0000] {logging_mixin.py:190} INFO - [2025-10-08T12:45:38.200+0000] {dag.py:4180} INFO - Setting next_dagrun for insurance_receipt_handler to None, run_after=None
+[2025-10-08T12:45:38.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lic_receipyt_dag.py took 0.833 seconds

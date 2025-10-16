@@ -1,0 +1,21 @@
+[2025-10-08T12:44:55.562+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-08T12:44:55.604+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: insurance_receipt_handler.handle_receipt manual__2025-10-08T12:44:53.855230+00:00 [queued]>
+[2025-10-08T12:44:55.644+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: insurance_receipt_handler.handle_receipt manual__2025-10-08T12:44:53.855230+00:00 [queued]>
+[2025-10-08T12:44:55.645+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-10-08T12:44:55.674+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): handle_receipt> on 2025-10-08 12:44:53.855230+00:00
+[2025-10-08T12:44:55.687+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=658) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-10-08T12:44:55.690+0000] {standard_task_runner.py:72} INFO - Started process 659 to run task
+[2025-10-08T12:44:55.690+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'insurance_receipt_handler', 'handle_receipt', 'manual__2025-10-08T12:44:53.855230+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/lic_receipyt_dag.py', '--cfg-path', '/tmp/tmprz1ywiia']
+[2025-10-08T12:44:55.692+0000] {standard_task_runner.py:105} INFO - Job 24: Subtask handle_receipt
+[2025-10-08T12:44:55.777+0000] {task_command.py:467} INFO - Running <TaskInstance: insurance_receipt_handler.handle_receipt manual__2025-10-08T12:44:53.855230+00:00 [running]> on host 1a90d2e7a4fc
+[2025-10-08T12:44:55.936+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='insurance_receipt_handler' AIRFLOW_CTX_TASK_ID='handle_receipt' AIRFLOW_CTX_EXECUTION_DATE='2025-10-08T12:44:53.855230+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-08T12:44:53.855230+00:00'
+[2025-10-08T12:44:55.937+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-10-08T12:44:56.007+0000] {lic_receipyt_dag.py:90} INFO - Premium ₹12000 is valid for FY 2024-2025
+[2025-10-08T12:44:56.008+0000] {python.py:240} INFO - Done. Returned value was: Premium ₹12000 is valid for FY 2024-2025
+[2025-10-08T12:44:56.045+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-10-08T12:44:56.047+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=insurance_receipt_handler, task_id=handle_receipt, run_id=manual__2025-10-08T12:44:53.855230+00:00, execution_date=20251008T124453, start_date=20251008T124455, end_date=20251008T124456
+[2025-10-08T12:44:56.112+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-08T12:44:56.144+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-08T12:44:56.148+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
